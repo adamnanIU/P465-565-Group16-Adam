@@ -1,0 +1,27 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: adam.edward.nan@gmail.com
+    password: Brliad1121!
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+servlet:
+  contextPath: /login
+
+server:
+  servlet:
+    contextPath: /login
+  port: 8087
+
+twilio:
+  accountId: "AC8deb1452551cdd56ceb1f562f9bfa405"
+  authToken: "1d703ad99c04c5f43026736acbc6206c"
+
+encrypt:
+  key: ZERSFDIOK
